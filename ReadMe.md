@@ -20,8 +20,10 @@ All of this work is hereby in the [public domain][].
 
 In order to make these scripts as easy to use as possible, they are designed to be run from the Python IDLE prompt and from the command line. In the case of the latter, output can be captured from `stdout` by simply piping the results to a text file of the user's own naming:
 
+<!-- 
     % cat ./pythonscript.py input.txt | output.txt
 
 This command should be read as `concatenate` the results of running this `python script` on this `input` text to this `output` text file, thank you very much.
+ -->
 
 [pubilc domain]: http://creativecommons.org/publicdomain/
