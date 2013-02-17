@@ -1,6 +1,6 @@
 # Text Analytics 101
 
-I have, for the past several years now, introduced my undergraduate students to some elements of textual analysis using computational methods. I use *text analytics* here only tentatively: many readers will perhaps be more familiar with, and indeed prefer, the older term text mining, but for me that term is too close to data mining, which usually refers to working with a great deal more texts than I am going to discuss here -- and that is why I suppose the term *data mining* has morphed into *big data*.  (More on this anon.)
+I have, for the past several years now, introduced my undergraduate students to some elements of textual analysis using computational methods. I use *text analytics* here only tentatively: many readers will perhaps be more familiar with, and indeed prefer, the older term [text mining][], but for me that term is too close to data mining, which usually refers to working with a great deal more texts than I am going to discuss here -- and that is why I suppose the term *data mining* has morphed into *big data*.  (More on this anon.)
 
 The number of texts here is one. That's right one text, and, in fact the one text is a short story. Keeping the text small is one way I have found to keep any psychological barriers to entry low when I introduce students to text analytics. The particular short story I have chosen in the past, and which I use here, is Richard Connell's "The Most Dangerous Game." The 1924 story has two advantages when working with students: first, it is in the public domain, and, second, the text's story has been so widely adapted that students are already familiar with the story and have probably seem an adaptation of the story in some fashion within their own recent memory. E.g., only a year or so ago, the FX Network's adult cartoon series, _Archer_, featured a version of the story entitled, "El Contador" (The Accountant).
 
@@ -31,14 +31,15 @@ With that list in mind, I would like to introduce the [Useful Python Scripts for
 
 ### About the Software Involved
 
-This is not the moment to engage in a recapitulation of all the usual arguments in favor of open source software, how it not only parallels the academy's ideals but how it practically makes possible the spread of ideas in a world sometimes hostile to such spread (either because the ideas are antagonistic to them or because they don't like the idea of ideas being free). What matters here is that Python is free, widely-available, and has a large community to help anyone interested in using it. Python runs on all the three major operating systems: Windows, Linux, and Mac.
-
-The [Python scripts][upst] themselves are similarly free and available for users to do with them what they want. (I have, in fact, placed them in the public domain.) The links for the scripts take users to a GitHub page from which they can be downloaded, or, if you have a GitHub account yourself, you can fork the repo itself. Please feel free to do either.
+This is not the moment to engage in a recapitulation of all the usual arguments in favor of open source software, how it not only parallels the academy's ideals but how it practically makes possible the spread of ideas in a world sometimes hostile to such spread. What matters here is that Python is free, widely-available, and has a large community to help anyone interested in using it. Python runs on all the three major operating systems: Windows, Linux, and Mac. The [Python scripts][upst] used here are similarly free and available for users to do with them what they want. (I have, in fact, placed them in the public domain.) The links for the scripts take users to a GitHub page from which they can be downloaded, or, if you have a GitHub account yourself, you can fork the repo itself. Please feel free to do either.
 
 
 ### Using the Scripts, Teaching Text Analytics
 
 
 
+> Count the words, throw away boring words, and sort by the count, descending. Keep the top N words for some N. Assign each word a font size proportional to its count. (Jonathon Freiburg)
 
+
+[text mining]: http://en.wikipedia.org/wiki/Text_mining
 [upst]: https://github.com/johnlaudun/upst
