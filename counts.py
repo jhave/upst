@@ -1,17 +1,19 @@
 #! /usr/env/python
 
-# This script counts lines, sentences, and words of a text file.
+# This script counts lines, sentences, and words of a text file. 
+# In order for the output to make sense, it requires each paragraph to be
+# one line with no blank lines between paragraphs.
 
 # First, just to be sure, we set all the counters to zero:
 lines, blanklines, sentences, words = 0, 0, 0, 0
 
 # Now we need to get a file to work with:
-textfile = open('/Users/john/Desktop/mm.txt', 'r')
+textfile = open('mdg.txt', 'r')
 
 # And now we are going to read one line at a time:
 for line in textfile:
-    #print line,   # test
     lines += 1
+    # Check for blank lines
     if line.startswith('\n'):
         blanklines += 1
     else:
@@ -31,7 +33,7 @@ textfile.close()
 
 # And now print the results:
 print '-' * 50
-print "Lines      : ", lines
-print "Blank lines: ", blanklines
+print "Paragraphs      : ", lines
+print "Section Breaks: ", blanklines
 print "Sentences  : ", sentences
 print "Words      : ", words
