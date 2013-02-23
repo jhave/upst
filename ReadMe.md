@@ -18,12 +18,10 @@ All of this work is hereby in the [public domain][].
 
 ## Usage ##
 
-In order to make these scripts as easy to use as possible, they are designed to be run from the bash shell command line.[^1] In the case of the latter, output can be captured from `stdout` by simply sending the results to a text file of the user's own naming:
+In order to make these scripts as easy to use as possible, they are designed to be run from the command line. In the case of the latter, output can be captured from `stdout` by simply sending the results to a text file of the user's own naming:
 
     python pythonscript.py > output.txt
 
 Yup, it's just that easy. 
 
-[pubilc domain]: http://creativecommons.org/publicdomain/
-
-[^1]: Bash is the default shell for most Posic-compliant operating systems, including both Mac and Linux OSes.
+[public domain]: http://creativecommons.org/publicdomain/
