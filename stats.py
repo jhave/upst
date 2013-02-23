@@ -31,9 +31,18 @@ for line in textfile:
 # We'll be tidy and close the file:
 textfile.close()
 
+sentavg = sentences / lines
+wordavg = words / lines
+
 # And now print the results:
 print '-' * 50
-print "Paragraphs      : ", lines
-print "Section Breaks: ", blanklines
-print "Sentences  : ", sentences
-print "Words      : ", words
+print "COUNTS "
+print "Paragraphs      : " + str(lines)
+print "Section Breaks: " + str(blanklines)
+print "Sentences  : " + str(sentences)
+print "Words      : " + str(words)
+print "\n"
+print "AVERAGES"
+print "Sentences per paragraph: " + str(sentavg)
+print "Words per paragraph: " + str(wordavg)
+# print same for section
